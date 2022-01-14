@@ -1,0 +1,12 @@
+.Containernav {
+    background: #0A2440;
+}
+.containernameandcard {
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1000px;
+}

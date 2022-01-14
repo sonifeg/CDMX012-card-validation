@@ -2,13 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Tarjeta de crédito válida Bbva</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header>Bank Card Validator cambio 2</header>
-    <main></main>
-    <footer></footer>
+    <div class="Containernav">
+      <header>
+        <nav class="Barranav"
+          <div class="Logo">
+             <img src="">
+            <div class="Inicio">
+             <img src="">
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    
+    <div class="containernameandcard">
+     <h1>¡Bienvenido(a)!</h1>
+        <div><p>Nombre de cliente</p></div>
+         <input type="text" id="Client" name="name" placeholder="Nombre de cliente">
+        <div><p>Numero de tarjeta</p></div>
+         <input type="text" id="Cardnumber" name="tarjeta" placeholder="Numero de tarjeta">
+         <br>
+         <br>
+        <button type ="button" onclick="Validar()" id="Btnvalidar">Validar
+        </button>
+      </div>
+    </div>
+
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>

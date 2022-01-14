@@ -1,3 +1,11 @@
-import validator from './validator.js';
+function Validar(){
+    let nomCliente= document.getElementById("Client").value; 
+    let numTarjeta= document.getElementById("Cardnumber").value;
+    alert (numTarjeta);
+   }
 
-console.log(validator);
+
+ /*
+   import validator from './validator.js';
+   console.log(validator);
+*/
