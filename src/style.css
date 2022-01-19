@@ -1,12 +1,24 @@
 .Containernav {
     background: #0A2440;
 }
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    image-orientation: flip;
+}
+.Inicio {
+    width: 100px;
+    height: 100px;
+}
+
+
 .containernameandcard {
     text-align: center;
 }
 header {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 15px;
     max-width: 1000px;
 }

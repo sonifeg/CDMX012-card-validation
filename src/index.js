@@ -1,11 +1,13 @@
-function Validar(){
-    let nomCliente= document.getElementById("Client").value; 
-    let numTarjeta= document.getElementById("Cardnumber").value;
-    alert (numTarjeta);
-   }
+import validator from './validator.js';
+document.getElementById("Btnvalidar").addEventListener("click", ValidarNumTarjeta);
 
+function ValidarNumTarjeta() {
+   let numTarjeta= document.getElementById("Cardnumber").value;
+  
+ 
+console.log("ValidarNumTarjeta");
+validator.isValid(numTarjeta);
+}
 
- /*
-   import validator from './validator.js';
-   console.log(validator);
-*/
+ 
+  
