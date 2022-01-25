@@ -3,32 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida Bbva</title>
+    <!--Font awesome 5 para iconos-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <!--Contenedor de la barra de navegación-->
     <div class="Containernav">
-      <header>
-        <nav class="Barranav"
-          <div class="Logo">
-             <img src="bbvalogo.png">
-            <div class="Inicio">
-             <img src="home.png">
-            </div>
-          </div>
+      <div class="Barranav">
+        <div class="Logo">
+          <img src="logoban.png" alt="">
+        </div>
+        <nav class="inicio">
+          <div class="iconInicio">
+           <ul>
+              <li><a href="#"><i class="fas fa-home">
+               <!-- <div class="menuItem">
+                Inicio
+                </div>-->
+                </i></a>
+              </li>
+            </ul> 
+          </div> 
         </nav>
-      </header>
+          
+      </div>
     </div>
     
+    <!--Contenedor introduccion de datos personales, placeholder=pone la etiqueta dentro del input, maxlenght=cantidad maxima de datos a introducir-->
     <div class="containernameandcard">
-     <h1>¡Bienvenido(a)!</h1>
+     <h1>¡Bienvenido!</h1>
         <div><p>Nombre de cliente</p></div>
          <input type="text" id="Client" name="name" placeholder="Nombre de cliente">
         <div><p>Numero de tarjeta</p></div>
-         <input type="text" id="Cardnumber" name="tarjeta" placeholder="Numero de tarjeta" maxlength="16">
+         <input type= "text" id="Cardnumber" name="tarjeta" placeholder="16 dígitos de tu tarjeta" onkeypress="return event.charCode>= 48 && event.charCode<= 57" required minlength="16" maxlength="16">
          <br>
          <br>
-        <button type ="button"  id="Btnvalidar">Validar</button>
+        <button type="button"  id="Btnvalidar">Validar</button>
     </div>
 
     
