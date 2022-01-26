@@ -1,35 +1,42 @@
 /*Estilizado general*/
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/*Estilizado contenedor de navbar general (punto cuando es class)*/
-.Containernav {
-    background: #0A2440;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: #0A2440;       
     width: 100%;
     height: 100px;
+    display: flex;
 }
-/*Estilizado contenedor de navbar */
 .Barranav{
     display: flex;
     align-items: center;
 }
 .Barranav .Logo img{
     width: 180px;
-    padding: 25px 100px;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 0;
+    margin: 10px 150px 0;
+    display: flex;
 }
-
+.inicio{
+    align-items: center;
+    display: flex;
+}
 /*Estilizado barra de icono */
 .iconInicio{
     width: 100%;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-   
+    display: flex;
 }
 .iconInicio a{
     text-align: center;
@@ -39,53 +46,131 @@ body {
 }
 li{
     margin-right: 100px; 
+    display: flex;
 }
 .containernameandcard {  
-    padding-top: 40px;
     text-align: center;
+    min-height: 250px;
 }
 h1{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 12px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: lighter;
 }
 .containernameandcard p{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px; 
     text-align: left;
-    padding-left: 670px;
-    padding-bottom: 0;
+    padding-left: 520px;
+    margin-bottom: 0;
     color: rgb(105, 105, 105);
 }
 .containernameandcard #Client{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(43, 43, 43);
     border-right: white;
     border-left: white;
     border-top: white;
+    min-width: 480px;
+    min-height: 40px;
 }
 .containernameandcard #Cardnumber{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(43, 43, 43);
     border-right: white;
     border-left: white;
     border-top: white;
+    min-width: 480px;
+    min-height: 40px;
 }
-button{
-    color: white;
-    padding: 8px 20px;
-    letter-spacing: 2px;
-    font-size: medium;
-    background: #0178EB;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    box-shadow: -1px 0px 19px -3px rgba(31, 31, 31, 0.86);
-    border: #0178EB;
-    border-radius: 2px;
+#mensajesValidacion{
+    color: #237aba;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#mensajesInvalidacion{
+    color: #400c0a;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.botones{ 
+    
+    text-align: center; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.botones #ValidarOtraVez{
+    font-size: 15px;
+    border-radius: 1px;
+    width: 128px;
+    height: 48px;
+    background: #237aba;
+    border: 0;
+    color: #fffefe;
+    font-weight: 700;
+    filter: none;
+    box-shadow: none;
     cursor: pointer;
+    padding: 0;
+    box-shadow: -1px 0px 19px -3px rgba(31, 31, 31, 0.86);
 }
-
+.botones #Btnvalidar{
+    font-size: 15px;
+    border-radius: 1px;
+    width: 128px;
+    height: 48px;
+    background: #237aba;
+    border: 0;
+    color: #fffefe;
+    font-weight: 700;
+    filter: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 0;
+    box-shadow: -1px 0px 19px -3px rgba(31, 31, 31, 0.86);
+}
+footer{
+    text-align: center;
+    background: #0A2440;       
+    width: 100%;
+    height: 100px;
+    display: flex; 
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.piePagina{
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    display: flex;
+}
+.piePagina p{
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-align: right;
+    display: flex;
+    padding-right: 20px;
+}
+.piePagina li{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.piePagina a{
+    color: white;
+    font-size: 20px;
+}

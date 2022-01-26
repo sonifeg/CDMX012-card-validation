@@ -10,40 +10,61 @@
 
   <body>
     <!--Contenedor de la barra de navegación-->
-    <div class="Containernav">
+    <header>
       <div class="Barranav">
         <div class="Logo">
           <img src="logoban.png" alt="">
         </div>
         <nav class="inicio">
           <div class="iconInicio">
-           <ul>
+            <ul>
               <li><a href="#"><i class="fas fa-home">
-               <!-- <div class="menuItem">
-                Inicio
-                </div>-->
                 </i></a>
               </li>
             </ul> 
           </div> 
         </nav>
-          
       </div>
-    </div>
-    
-    <!--Contenedor introduccion de datos personales, placeholder=pone la etiqueta dentro del input, maxlenght=cantidad maxima de datos a introducir-->
-    <div class="containernameandcard">
-     <h1>¡Bienvenido!</h1>
-        <div><p>Nombre de cliente</p></div>
-         <input type="text" id="Client" name="name" placeholder="Nombre de cliente">
-        <div><p>Numero de tarjeta</p></div>
-         <input type= "text" id="Cardnumber" name="tarjeta" placeholder="16 dígitos de tu tarjeta" onkeypress="return event.charCode>= 48 && event.charCode<= 57" required minlength="16" maxlength="16">
-         <br>
-         <br>
-        <button type="button"  id="Btnvalidar">Validar</button>
-    </div>
+    </header>
 
     
+    <!--Contenedor introduccion de datos personales, placeholder=pone la etiqueta
+    dentro del input, maxlenght=cantidad maxima de datos a introducir-->
+    <main>
+      <div class="containernameandcard">
+        <h1>¡Bienvenido!</h1>
+        <div><p>Nombre de cliente</p></div>
+         <input type="text" id="Client" name="name" placeholder="Nombre de cliente">
+          <br>
+          <br>
+         <div><p>Numero de tarjeta</p></div>
+          <input type= "text" id="Cardnumber" name="tarjeta" placeholder="16 dígitos de tu tarjeta" 
+           onkeypress="return event.charCode>= 48 && event.charCode<= 57" required minlength="16" maxlength="16">
+          <!--Contenedor de validador de tarjeta oculto-->
+         <div id="mensajesValidacion"></div>
+         <div id="mensajesInvalidacion"></div>
+          <div class="botones">
+           <button type="submit"  id="Btnvalidar">Validar Tarjeta</button>
+           <button type="submit" id="ValidarOtraVez">Volver a validar</button>
+          </div>
+      </div>   
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+      <div class="piePagina">
+        <p>Página de validación de tarjetas Bbva (Solo para fines educativos)</p>
+        <li><a href="https://github.com/sonifeg"><i class="fab fa-github">
+            </i></a>
+        </li>
+      </div> 
+    </footer>
+  
     <script src="index.js" type="module"></script>
   </body>
 </html>
