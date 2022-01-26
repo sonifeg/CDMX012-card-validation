@@ -6,8 +6,6 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -54,36 +52,40 @@ li{
 }
 h1{
     text-align: center;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     font-weight: 300;
-    font-size: 32px;
+    font-size: 41px;
     font-weight: lighter;
 }
 .containernameandcard p{
-    font-size: 13px; 
+    font-size: 15px; 
     text-align: left;
     padding-left: 520px;
     margin-bottom: 0;
     color: rgb(105, 105, 105);
 }
 .containernameandcard #Client{
-    font-size: 15px;
-    color: rgb(43, 43, 43);
+    font-size: 18px;
+    color: #747474;
     border-right: white;
     border-left: white;
     border-top: white;
     min-width: 480px;
-    min-height: 40px;
+    min-height: 50px;
+    background: rgba(196, 196, 196, 0.8);
+    padding-left: 15px;
 }
 .containernameandcard #Cardnumber{
-    font-size: 15px;
-    color: rgb(43, 43, 43);
+    font-size: 18px;
+    color: #747474;
     border-right: white;
     border-left: white;
     border-top: white;
     min-width: 480px;
-    min-height: 40px;
+    min-height: 50px;
+    background: rgba(196, 196, 196, 0.8);
+    padding-left: 15px;
 }
 #mensajesValidacion{
     color: #237aba;
@@ -93,6 +95,7 @@ h1{
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 30px;
+    padding-top: 30px;
 }
 #mensajesInvalidacion{
     color: #400c0a;
@@ -105,15 +108,10 @@ h1{
 }
 .botones{ 
     
-    text-align: center; 
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
+    justify-content: space-around;
 }
-.botones #ValidarOtraVez{
+.botones .validarOtraVez{
     font-size: 15px;
-    border-radius: 1px;
     width: 128px;
     height: 48px;
     background: #237aba;
@@ -125,10 +123,13 @@ h1{
     cursor: pointer;
     padding: 0;
     box-shadow: -1px 0px 19px -3px rgba(31, 31, 31, 0.86);
+    float: center;
+    margin-left: 70px;
+    justify-content: center;
+    border-radius: 3px;
 }
-.botones #Btnvalidar{
+.botones .btnvalidar{
     font-size: 15px;
-    border-radius: 1px;
     width: 128px;
     height: 48px;
     background: #237aba;
@@ -140,6 +141,10 @@ h1{
     cursor: pointer;
     padding: 0;
     box-shadow: -1px 0px 19px -3px rgba(31, 31, 31, 0.86);
+    float: center;
+    margin-right: 70px;
+    justify-content: center;
+    border-radius: 3px;
 }
 footer{
     text-align: center;
