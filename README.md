@@ -6,7 +6,7 @@ Página de validación de tarjetas de crédito, te permite ver si la tarjeta es 
 además de esconder el numero y opción de validar otra tarjeta.
 
 
-![Imagen final del proyecto](https://github.com/[sonifeg]/[CDMX012-card-validation]/blob/[main]/validacion tarjeta sonia.png?raw=true)
+![Imagen final del proyecto](https://github.com/[sonifeg]/[CDMX012-card-validation]/blob/[main]/paginasonia.png?raw=true)
 
 ## 2. Resumen del proyecto
 
