@@ -20,15 +20,15 @@ const validator = {
   // ... funcion maskify
   maskify(creditCardNumber) {
     //Creo la variable que identifique mi longitud
-    var oculto = creditCardNumber.length;
+    let oculto = creditCardNumber.length;
     //si la longitud de mi numero es menor a 5, regresa el numero de la tarjeta
     if (creditCardNumber < 5) {
       return creditCardNumber;
      //si es mayor a 5, mi variable oculto - valor inicial  menos 5(deja los ultimos 4 descubiertos), sustituye mi valor por #(los numeros anteriores)
     }else{
-      return creditCardNumber.split('').map(function(val, idx){
-        return (oculto - idx < 5) ? val : '#';
-     }).join('');
+      return creditCardNumber.split("").map(function(val, idx){
+        return (oculto - idx < 5) ? val : "#";
+     }).join("");
     }
   }
 };
