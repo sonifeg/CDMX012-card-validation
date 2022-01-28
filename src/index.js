@@ -1,12 +1,12 @@
 import validator from './validator.js';
-const botonValidacion= document.getElementById("Btnvalidar")
-const botonValidarOtraVez= document.getElementById("ValidarOtraVez")
-const nombreCliente= document.getElementById("Client")
-const creditCardNumber= document.getElementById("Cardnumber")
+const botonValidacion= document.getElementById("btnValidar")
+const botonValidarOtraVez= document.getElementById("validarOtraVez")
+const nombreCliente= document.getElementById("client")
+const creditCardNumber= document.getElementById("cardNumber")
 const mensajesValido= document.getElementById("mensajesValidacion")
 const mensajesInvalido= document.getElementById("mensajesInvalidacion")
 
-function ValidarNumTarjeta() {
+function validarNumTarjeta() {
  if(validator.isValid(creditCardNumber.value)==true){
      //mensaje valido o invalido
      mensajesValido.innerHTML="Tu tarjeta es válida " + nombreCliente.value;
@@ -17,7 +17,7 @@ function ValidarNumTarjeta() {
  //ocultar con maskify
  creditCardNumber.value= validator.maskify(creditCardNumber.value);
 }  
-function ValidarNuevamente(){
+function validarNuevamente(){
 //limpiar datos
 nombreCliente.value="";
 creditCardNumber.value="";
@@ -26,8 +26,8 @@ mensajesInvalido.innerHTML="";
 }
 
 //botones con eventos
-botonValidacion.addEventListener("click", ValidarNumTarjeta);
-botonValidarOtraVez.addEventListener("click", ValidarNuevamente);
+botonValidacion.addEventListener("click", validarNumTarjeta);
+botonValidarOtraVez.addEventListener("click", validarNuevamente);
 
 
  

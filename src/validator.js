@@ -5,7 +5,7 @@ const validator = {
     let arrayNum= creditCardNumber.split("").reverse().map(Number);
      //Multiplicar los numeros pares, si el resto de la longitud mi numero es igual a 0
       if (arrayNum.lenght % 2 == 0){
-        arrayNum = arrayNum.map((numero,idx)=> idx % 2 === 0 ? numero * 2 : numero);
+       arrayNum = arrayNum.map((numero,idx)=> idx % 2 === 0 ? numero * 2 : numero);
       }
         else{
          arrayNum = arrayNum.map((numero,idx)=> idx % 2 === 1 ? numero * 2 : numero);
@@ -20,7 +20,7 @@ const validator = {
         true 
       } 
        else{
-         false     
+         false  
         }
        return sumaValor;
   },

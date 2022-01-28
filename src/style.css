@@ -14,11 +14,11 @@ header{
     height: 100px;
     display: flex;
 }
-.Barranav{
+.barraNav{
     display: flex;
     align-items: center;
 }
-.Barranav .Logo img{
+.barraNav .logo img{
     width: 180px;
     align-items: center;
     margin: 10px 150px 0;
@@ -46,7 +46,7 @@ li{
     margin-right: 100px; 
     display: flex;
 }
-.containernameandcard {  
+.containerNameAndCard {  
     text-align: center;
     min-height: 250px;
 }
@@ -58,14 +58,14 @@ h1{
     font-size: 41px;
     font-weight: lighter;
 }
-.containernameandcard p{
+.containerNameAndCard p{
     font-size: 15px; 
     text-align: left;
     padding-left: 520px;
     margin-bottom: 0;
     color: rgb(105, 105, 105);
 }
-.containernameandcard #Client{
+.containerNameAndCard #client{
     font-size: 18px;
     color: #747474;
     border-right: white;
@@ -76,7 +76,7 @@ h1{
     background: rgba(196, 196, 196, 0.8);
     padding-left: 15px;
 }
-.containernameandcard #Cardnumber{
+.containerNameAndCard #cardNumber{
     font-size: 18px;
     color: #747474;
     border-right: white;
@@ -128,7 +128,7 @@ h1{
     justify-content: center;
     border-radius: 3px;
 }
-.botones .btnvalidar{
+.botones .btnValidar{
     font-size: 15px;
     width: 128px;
     height: 48px;
