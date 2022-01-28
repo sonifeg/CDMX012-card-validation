@@ -7,7 +7,7 @@ const mensajesValido= document.getElementById("mensajesValidacion")
 const mensajesInvalido= document.getElementById("mensajesInvalidacion")
 
 function validarNumTarjeta() {
- if(validator.isValid(creditCardNumber.value)==true){
+ if(validator.isValid(creditCardNumber.value)){
      //mensaje valido o invalido
      mensajesValido.innerHTML="Tu tarjeta es válida " + nombreCliente.value;
  }
