@@ -9,27 +9,13 @@ además de esconder el numero y opción de validar otra tarjeta.
 ![Imagen final del proyecto](https://github.com/sonifeg/CDMX012-card-validation/blob/main/paginasonia.png?raw=true)
 ![Imagen tarjeta valida](https://github.com/sonifeg/CDMX012-card-validation/blob/main/tarjetavalida.png?raw=true)
 ![Imagen tarjeta invalida](https://github.com/sonifeg/CDMX012-card-validation/blob/main/tarjetainvalida.png?raw=true)
-## 2. Resumen del proyecto
 
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
-
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
-
-## 3. Objetivos de aprendizaje
+##  Investigacion UX
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
-### HTML
+### Quiénes son los usuarios y los objetivos
 
 - [ ] **Uso de HTML semántico**
 
@@ -39,28 +25,16 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 </p></details>
 
-### CSS
+### cómo soluciona los problemas/necesidades de usuarios.
 
-- [ ] **Uso de selectores de CSS**
 
-  <details><summary>Links</summary><p>
+### Boceto en papel
 
-  * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
-</p></details>
+### Wireframe de baja fidelidad y feedback
 
-- [ ] **Modelo de caja (box model): borde, margen, padding**
+### Prototipo final
 
-  <details><summary>Links</summary><p>
 
-  * [Box Model & Display](https://curriculum.laboratoria.la/es/topics/css/01-css/02-boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
-
-### Web APIs
 
 - [ ] **Uso de selectores del DOM**
 
