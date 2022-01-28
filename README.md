@@ -7,7 +7,8 @@ además de esconder el numero y opción de validar otra tarjeta.
 
 
 ![Imagen final del proyecto](https://github.com/sonifeg/CDMX012-card-validation/blob/main/paginasonia.png?raw=true)
-
+![Imagen tarjeta valida](https://github.com/sonifeg/CDMX012-card-validation/blob/main/tarjetavalida.png?raw=true)
+![Imagen tarjeta invalida](https://github.com/sonifeg/CDMX012-card-validation/blob/main/tarjetainvalida.png?raw=true)
 ## 2. Resumen del proyecto
 
 En este proyecto tendrás que construir una aplicación web que le permita a un
