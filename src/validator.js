@@ -2,10 +2,10 @@ const validator = {
   // ...funcion isValid 
   isValid(creditCardNumber){//creditCardNumber entra como string
     //Variable donde convertimos el string a array y a numero
-    let arrayNum= creditCardNumber.split("").reverse().map(Number);
+    let arrayNum= creditCardNumber.split("").map(Number);
      //Multiplicar los numeros pares, si el resto de la longitud mi numero es igual a 0
-      if (arrayNum.lenght % 2 === 0){
-       arrayNum = arrayNum.map((numero,idx)=> idx % 2 === 0 ? numero * 2 : numero);
+      if (arrayNum.length % 2 === 0){
+      arrayNum = arrayNum.map((numero,idx)=> idx % 2 === 0 ? numero * 2 : numero);
       }
         else{
          arrayNum = arrayNum.map((numero,idx)=> idx % 2 === 1 ? numero * 2 : numero);
@@ -15,7 +15,13 @@ const validator = {
        //Teniendo mis numeros nuevos, sumar todo
       let suma= arrayNum.reduce((acc, numero)=> acc += numero, 0);
        //validacion de tarjeta, si el resto de mi suma es 0 valida de lo contrario invalida
-       return suma % 10 === 0;
+       let modulo= suma % 10 === 0;
+       if(modulo){
+       true
+       }else{
+         false
+       }
+       return modulo
   },
   // ... funcion maskify
   maskify(creditCardNumber) {
