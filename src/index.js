@@ -9,10 +9,10 @@ const mensajesInvalido= document.getElementById("mensajesInvalidacion")
 function validarNumTarjeta() {
  if(validator.isValid(creditCardNumber.value)){
      //mensaje valido o invalido
-     mensajesValido.innerHTML="<div class='mensajesValidacion'>"+"Tu tarjeta es válida " + nombreCliente.value+"</div>"
+     mensajesValido.innerHTML=`Tu tarjeta es válida ${nombreCliente.value}`
  }
   else{
-    mensajesValido.innerHTML="<div class='mensajesInvalidacion'>"+"Tu tarjeta es inválida "+ nombreCliente.value+"</div>"
+    mensajesValido.innerHTML=`<div id="mensajesInvalidacion">Tu tarjeta es inválida ${nombreCliente.value}</div>`
   }
  //ocultar con maskify
  creditCardNumber.value= validator.maskify(creditCardNumber.value);
@@ -22,7 +22,7 @@ function validarNuevamente(){
 nombreCliente.value="";
 creditCardNumber.value="";
 mensajesValido.innerHTML="";
-mensajesInvalido.innerHTML="";
+
 }
 
 //botones con eventos

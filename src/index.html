@@ -12,18 +12,10 @@
     <!--Contenedor de la barra de navegación-->
     <header>
       <div class="barraNav">
-        <div class="logo">
           <img src="logoban.png" alt="">
-        </div>
-        <nav class="inicio">
-          <div class="iconInicio">
-            <ul>
-              <li><a href="#"><i class="fas fa-home">
+          <div class="iconInicio"><a href="#"><i class="fas fa-home">
                 </i></a>
-              </li>
-            </ul> 
           </div> 
-        </nav>
       </div>
     </header>
 
@@ -41,8 +33,12 @@
           <input type= "text" id="cardNumber" name="tarjeta" placeholder="16 dígitos de tu tarjeta" 
            onkeypress="return event.charCode>= 48 && event.charCode<= 57" required minlength="16" maxlength="16">
           <!--Contenedor de validador de tarjeta oculto-->
-         <div id="mensajesValidacion"></div>
-         <div id="mensajesInvalidacion"></div>
+       
+            <div id="mensajesValidacion" ></div>
+            <div id="mensajesInvalidacion" ></div>
+         
+           
+         
           <div class="botones">
            <button type="submit" class="btnValidar" id="btnValidar">Validar Tarjeta</button>
            <button type="submit" class="validarOtraVez" id="validarOtraVez">Volver a validar</button>
